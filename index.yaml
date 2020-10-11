@@ -8830,6 +8830,37 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-couchdb-exporter-0.1.0.tgz
     version: 0.1.0
+  prometheus-druid-exporter:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+      artifacthub.io/operator: "true"
+    apiVersion: v1
+    appVersion: v0.8.0
+    created: "2020-10-11T21:30:22.296945351Z"
+    description: Druid exporter to monitor druid metrics with Prometheus
+    digest: 93dea6f387387fd051daa65666f58b9ec102f6138ff0b745de0c07433e2f678f
+    home: https://github.com/opstree/druid-exporter
+    icon: https://github.com/opstree/druid-exporter/blob/master/static/druid-exporter-logo.svg
+    keywords:
+    - kubernetes
+    - apache
+    - druid
+    - exporter
+    - prometheus
+    - grafana
+    maintainers:
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+    - email: sandeep@opstree.com
+      name: sandy724
+    name: prometheus-druid-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-druid-exporter-0.8.0/prometheus-druid-exporter-0.8.0.tgz
+    version: 0.8.0
   prometheus-mongodb-exporter:
   - apiVersion: v1
     appVersion: v0.10.0
