@@ -8989,6 +8989,32 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-druid-exporter-0.8.0/prometheus-druid-exporter-0.8.0.tgz
     version: 0.8.0
+  prometheus-kafka-exporter:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
+    apiVersion: v1
+    appVersion: v1.2.0
+    created: "2020-10-18T15:33:45.654255858Z"
+    description: A Helm chart to export the metrics from Kafka in Prometheus format
+      using the kafka-exporter from https://github.com/danielqsj/kafka_exporter
+    digest: 25b1a0ac3dd5544a9216a159580cc44a5a305381f9c0e1232eddad1b860debc5
+    home: https://github.com/danielqsj/kafka_exporter
+    keywords:
+    - prometheus
+    - kafka
+    maintainers:
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: golgoth31@notrenet.com
+      name: golgoth31
+    name: prometheus-kafka-exporter
+    sources:
+    - https://gkarthiks.github.io/helm-charts/charts/prometheus-kafka-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-kafka-exporter-0.1.4/prometheus-kafka-exporter-0.1.4.tgz
+    version: 0.1.4
   prometheus-mongodb-exporter:
   - apiVersion: v1
     appVersion: v0.10.0
