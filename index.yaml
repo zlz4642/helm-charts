@@ -9362,6 +9362,31 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-druid-exporter-0.8.0/prometheus-druid-exporter-0.8.0.tgz
     version: 0.8.0
+  prometheus-elasticsearch-exporter:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2020-10-26T19:14:55.960507476Z"
+    description: Elasticsearch stats exporter for Prometheus
+    digest: 2088d10c2a13ef3d00aa052ce66fabcecb6cda32c8677523f94ab41af9116567
+    home: https://github.com/justwatchcom/elasticsearch_exporter
+    keywords:
+    - metrics
+    - elasticsearch
+    - monitoring
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: sven.mueller@commercetools.com
+      name: svenmueller
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: prometheus-elasticsearch-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-elasticsearch-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-elasticsearch-exporter-4.0.0/prometheus-elasticsearch-exporter-4.0.0.tgz
+    version: 4.0.0
   prometheus-kafka-exporter:
   - annotations:
       artifacthub.io/links: |
@@ -23589,6 +23614,28 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-snmp-exporter-0.0.1.tgz
     version: 0.0.1
+  prometheus-stackdriver-exporter:
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2020-10-26T19:14:56.071305134Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 0ea7e615edcacb308160c16279b347b75660a21da83f0fddabbf87784e12350b
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: apenney@gmail.com
+      name: apenney
+    - email: pahli88@googlemail.com
+      name: rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-stackdriver-exporter-1.4.0/prometheus-stackdriver-exporter-1.4.0.tgz
+    version: 1.4.0
   prometheus-to-sd:
   - apiVersion: v1
     appVersion: 0.5.2
