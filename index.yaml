@@ -10569,6 +10569,25 @@ entries:
   prometheus-consul-exporter:
   - apiVersion: v1
     appVersion: 0.4.0
+    created: "2020-11-18T11:36:04.969358261Z"
+    description: A Helm chart for the Prometheus Consul Exporter
+    digest: d05b3f78f858110eca7637dbb644e7e3e92f578c06bb8613d54c64f3348190f2
+    home: https://github.com/prometheus/consul_exporter
+    keywords:
+    - metrics
+    - consul
+    - monitoring
+    maintainers:
+    - email: 8890118+timm088@users.noreply.github.com
+      name: timm088
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    name: prometheus-consul-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-consul-exporter-0.3.0/prometheus-consul-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: 0.4.0
     created: "2020-10-04T14:27:34.596721334Z"
     description: A Helm chart for the Prometheus Consul Exporter
     digest: 0df6c70ba418826885e5aa508c989fcec1b0a2b4a996300d77ae9feb3f3374bd
