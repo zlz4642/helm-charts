@@ -11030,6 +11030,31 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
     apiVersion: v1
     appVersion: v1.2.0
+    created: "2020-11-18T19:59:49.149809355Z"
+    description: A Helm chart to export the metrics from Kafka in Prometheus format
+      using the kafka-exporter from https://github.com/danielqsj/kafka_exporter
+    digest: d924f9c2af87dd85125752c626aeef3f3023ba8a84f68476e5771c0a1800e6bf
+    home: https://github.com/danielqsj/kafka_exporter
+    keywords:
+    - prometheus
+    - kafka
+    maintainers:
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: golgoth31@notrenet.com
+      name: golgoth31
+    name: prometheus-kafka-exporter
+    sources:
+    - https://gkarthiks.github.io/helm-charts/charts/prometheus-kafka-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-kafka-exporter-0.2.0/prometheus-kafka-exporter-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
+    apiVersion: v1
+    appVersion: v1.2.0
     created: "2020-11-18T11:27:08.698932239Z"
     description: A Helm chart to export the metrics from Kafka in Prometheus format
       using the kafka-exporter from https://github.com/danielqsj/kafka_exporter
