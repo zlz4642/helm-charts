@@ -3894,6 +3894,40 @@ entries:
     version: 9.3.4
   prometheus:
   - apiVersion: v2
+    appVersion: 2.24.0
+    created: "2021-01-11T23:34:53.015685528Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.1.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 96407ed888e384b8736627e5321763af68800a6704b5ba4139d34a13d7ffbb28
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-13.2.0/prometheus-13.2.0.tgz
+    version: 13.2.0
+  - apiVersion: v2
     appVersion: 2.22.1
     created: "2021-01-11T11:32:02.279397171Z"
     dependencies:
