@@ -28284,6 +28284,22 @@ entries:
   prometheus-to-sd:
   - apiVersion: v1
     appVersion: 0.5.2
+    created: "2021-01-20T06:42:42.789694014Z"
+    description: Scrape metrics stored in prometheus format and push them to the Stackdriver
+    digest: 7cb72d9e00f38d7cbd91e73df892c75a4631d41070846edbcbeb5671b0f9f668
+    home: https://github.com/GoogleCloudPlatform/k8s-stackdriver/tree/master/prometheus-to-sd
+    keywords:
+    - prometheus
+    - stackdriver
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+    name: prometheus-to-sd
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-to-sd-0.4.0/prometheus-to-sd-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v1
+    appVersion: 0.5.2
     created: "2020-08-20T11:30:15.277330549Z"
     description: Scrape metrics stored in prometheus format and push them to the Stackdriver
     digest: a60cb80033814a363ce152af1a143de5ed6ba0469e1b4029678a576c6a0fb329
