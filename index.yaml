@@ -28633,6 +28633,27 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: 0.6.0
+    created: "2021-01-22T19:57:14.309287342Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 75614472bd8adccfd0a22c81a7ca3c7d7eda81fd038d7d9fdc8741fba7f33fc2
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: apenney@gmail.com
+      name: apenney
+    - email: pahli88@googlemail.com
+      name: rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-stackdriver-exporter-1.7.0/prometheus-stackdriver-exporter-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v1
+    appVersion: 0.6.0
     created: "2021-01-09T19:24:25.228637796Z"
     description: Stackdriver exporter for Prometheus
     digest: 5f3e27f32fd5f45f5c6353265038b321daddfad16362518494f0459bba97caf8
