@@ -27846,6 +27846,28 @@ entries:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pingdom-exporter-2.3.2/prometheus-pingdom-exporter-2.3.2.tgz
     version: 2.3.2
   prometheus-postgres-exporter:
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2021-03-07T12:41:56.042007453Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 43a37a90c1204040498c8ab7795e063715ebd6a469437f5fddc2b69a478d8825
+    home: https://github.com/wrouesnel/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/wrouesnel/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-postgres-exporter-2.0.0/prometheus-postgres-exporter-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 0.8.0
     created: "2021-02-20T13:15:11.540035392Z"
