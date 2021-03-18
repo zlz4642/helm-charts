@@ -16631,6 +16631,27 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v1
     appVersion: 1.1.2
+    created: "2021-03-18T22:35:06.993030352Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 02551f1ddeb9352d25271be9992f5988ffd14a446e963f5bd55b8a7402c5cd28
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - name: vsliouniaev
+    - name: bismarck
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-node-exporter-1.16.2/prometheus-node-exporter-1.16.2.tgz
+    version: 1.16.2
+  - apiVersion: v1
+    appVersion: 1.1.2
     created: "2021-03-18T21:30:35.396639246Z"
     description: A Helm chart for prometheus node-exporter
     digest: 212bc34505f192ebfd7bdff417449882028006a3ce06b4509e83bc62e3d0101f
