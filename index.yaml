@@ -30585,6 +30585,27 @@ entries:
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: 1.11.1
+    created: "2021-04-12T06:54:22.238351879Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 65b9979d9a3740a48c148d957b9fcb33c046d2816889f4cb3ed006a1cb11d213
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-redis-exporter-4.0.1/prometheus-redis-exporter-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v2
+    appVersion: 1.11.1
     created: "2020-11-23T10:16:45.894937306Z"
     description: Prometheus exporter for Redis metrics
     digest: cd5216cfb125e43477b2cb187a35bfedaf853a65649812bf966573a92932d1d9
