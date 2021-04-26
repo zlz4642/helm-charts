@@ -30406,6 +30406,26 @@ entries:
   prometheus-pushgateway:
   - apiVersion: v1
     appVersion: 1.3.0
+    created: "2021-04-26T02:11:18.586492208Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 79adb4d542b180ac44b2cb5db9e8384e4c5c77b433a9267343b837a292261b78
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pushgateway-1.9.0/prometheus-pushgateway-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v1
+    appVersion: 1.3.0
     created: "2021-04-12T15:34:34.292723478Z"
     description: A Helm chart for prometheus pushgateway
     digest: e62a025ae000257f6f9410f6fecad854c1f30532ed4508b3f36688a941c4c0cd
