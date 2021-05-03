@@ -15981,6 +15981,30 @@ entries:
   prometheus-cloudwatch-exporter:
   - apiVersion: v1
     appVersion: 0.10.0
+    created: "2021-05-03T08:00:17.39306365Z"
+    description: A Helm chart for prometheus cloudwatch-exporter
+    digest: e226155ea472da3b3e3afccf921583eb006bcf71c8c318e099f8b52ec9057b19
+    home: https://github.com/prometheus/cloudwatch_exporter
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: asher@asherfoa.com
+      name: asherf
+    name: prometheus-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus/cloudwatch_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-cloudwatch-exporter-0.15.0/prometheus-cloudwatch-exporter-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v1
+    appVersion: 0.10.0
     created: "2021-02-16T05:51:20.29208008Z"
     description: A Helm chart for prometheus cloudwatch-exporter
     digest: 16329262937f18b4523e7aa2f532b1caf9b5695cfadaaf88420aa959cf80add6
