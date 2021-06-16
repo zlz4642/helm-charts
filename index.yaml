@@ -3,6 +3,26 @@ entries:
   alertmanager:
   - apiVersion: v2
     appVersion: v0.22.1
+    created: "2021-06-16T13:17:58.08190026Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 2563ec096673f7577e64fc28192e1ad99086bea775b5668bcf589fabfc4d1b34
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/alertmanager-0.12.0/alertmanager-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    appVersion: v0.22.1
     created: "2021-06-02T09:05:47.504806412Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
