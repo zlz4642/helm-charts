@@ -16768,6 +16768,30 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.8.4
+    created: "2021-07-23T12:06:21.479480682Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: 8a48e8cbc918893da0def0d604adca82c410c918001095bec18f9dd74a997bdf
+    home: https://github.com/DirectXMan12/k8s-prometheus-adapter
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+    - name: steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/DirectXMan12/k8s-prometheus-adapter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-adapter-2.15.2/prometheus-adapter-2.15.2.tgz
+    version: 2.15.2
+  - apiVersion: v1
+    appVersion: v0.8.4
     created: "2021-07-10T19:50:32.560937797Z"
     description: A Helm chart for k8s prometheus adapter
     digest: e1ddd82475c67a558f9028b4c2e02eb702b36b0702984be3d488269d4a02e609
@@ -37025,4 +37049,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-23T10:50:12.06928018Z"
+generated: "2021-07-23T12:06:21.492143377Z"
