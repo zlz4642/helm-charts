@@ -22251,6 +22251,28 @@ entries:
     version: 1.0.0
   prometheus-node-exporter:
   - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-08-06T12:28:56.497498065Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 3b882201eea394f2d10410e8ee9d1fcd3af76cc310d178baf759f236f5ffbefc
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - name: vsliouniaev
+    - name: bismarck
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-node-exporter-2.0.3/prometheus-node-exporter-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
     appVersion: 1.2.0
     created: "2021-07-26T14:30:34.646355299Z"
     description: A Helm chart for prometheus node-exporter
@@ -37344,4 +37366,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-04T20:51:26.386096703Z"
+generated: "2021-08-06T12:28:56.509925378Z"
