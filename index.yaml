@@ -21993,6 +21993,36 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v1
     appVersion: v0.8.0
+    created: "2021-09-21T14:52:03.802593273Z"
+    description: Druid exporter to monitor druid metrics with Prometheus
+    digest: 9842688f7dc42f0d0191aacb395d2b86442cc7d8f35fbe663d48131d34707d92
+    home: https://github.com/opstree/druid-exporter
+    icon: https://github.com/opstree/druid-exporter/blob/master/static/druid-exporter-logo.svg
+    keywords:
+    - kubernetes
+    - apache
+    - druid
+    - exporter
+    - prometheus
+    - grafana
+    maintainers:
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+    - email: sandeep@opstree.com
+      name: sandy724
+    name: prometheus-druid-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-druid-exporter-0.11.0/prometheus-druid-exporter-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+      artifacthub.io/operator: "true"
+    apiVersion: v1
+    appVersion: v0.8.0
     created: "2021-08-16T06:38:45.909976169Z"
     description: Druid exporter to monitor druid metrics with Prometheus
     digest: 27a0dd4780c2b3de5cd9a0821ce73fda6679c2750dc40814a0fbe4b2fbeca9e5
@@ -38958,4 +38988,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-20T18:42:59.531697126Z"
+generated: "2021-09-21T14:52:03.817178464Z"
