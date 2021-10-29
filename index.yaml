@@ -23488,6 +23488,24 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-elasticsearch-exporter-4.0.0/prometheus-elasticsearch-exporter-4.0.0.tgz
     version: 4.0.0
+  prometheus-json-exporter:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2021-10-29T14:36:00.122432513Z"
+    description: Install prometheus-json-exporter
+    digest: 1aabfd39aa2fc16d02d286ba5f0e5e7eb3f675da4046dbdb17b8a58faa7305c5
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: schmiddim@gmx.at
+      name: schmiddim
+    name: prometheus-json-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-json-exporter-0.1.0/prometheus-json-exporter-0.1.0.tgz
+    version: 0.1.0
   prometheus-kafka-exporter:
   - annotations:
       artifacthub.io/links: |
@@ -40271,4 +40289,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-29T13:10:44.102247008Z"
+generated: "2021-10-29T14:36:00.134087524Z"
