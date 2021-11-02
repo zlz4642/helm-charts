@@ -37612,6 +37612,26 @@ entries:
   prometheus-pushgateway:
   - apiVersion: v1
     appVersion: 1.4.1
+    created: "2021-11-02T16:01:37.160714736Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 34ab034deb8bc82aee4a2dcf9712752183d46ffcff83c63119af2d787b59f4cc
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pushgateway-1.13.0/prometheus-pushgateway-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v1
+    appVersion: 1.4.1
     created: "2021-10-19T11:53:56.423708549Z"
     description: A Helm chart for prometheus pushgateway
     digest: ac638171781b5da36df4c28abbb8b2512fc7d2b39ff4d71633e6b1e3b7114e11
@@ -40306,4 +40326,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-29T22:32:25.47848544Z"
+generated: "2021-11-02T16:01:37.171396761Z"
