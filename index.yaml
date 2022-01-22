@@ -27964,6 +27964,27 @@ entries:
     version: 0.1.0
   prometheus-nats-exporter:
   - apiVersion: v1
+    appVersion: 0.9.1
+    created: "2022-01-22T21:11:16.729548763Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: bc2fa25ec7c97a292e0d60d58d99fe1e1d0eeed43399d9a2d0619380df8cc843
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-nats-exporter-2.9.1/prometheus-nats-exporter-2.9.1.tgz
+    version: 2.9.1
+  - apiVersion: v1
     appVersion: 0.9.0
     created: "2022-01-02T01:16:17.66933213Z"
     description: A Helm chart for prometheus-nats-exporter
@@ -44061,4 +44082,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-20T13:12:19.979362589Z"
+generated: "2022-01-22T21:11:16.746872332Z"
