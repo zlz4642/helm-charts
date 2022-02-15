@@ -44616,6 +44616,27 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: 0.12.0
+    created: "2022-02-15T12:51:09.880400373Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 75d03935fcbb61557d0009e2f751fd484fe897da291bd9bfb2b23ade7d35b78a
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: apenney@gmail.com
+      name: apenney
+    - email: pahli88@googlemail.com
+      name: rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-stackdriver-exporter-2.1.0/prometheus-stackdriver-exporter-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
+    appVersion: 0.12.0
     created: "2022-02-15T10:53:50.873003052Z"
     description: Stackdriver exporter for Prometheus
     digest: 2f4ce0c84d6c0d45b3573a87888d2208acdbe14bd730b74e77dfa3fb8be22f10
@@ -45188,4 +45209,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-15T10:53:50.886567436Z"
+generated: "2022-02-15T12:51:09.894229168Z"
