@@ -24600,6 +24600,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: 0.19.0
+    created: "2022-02-21T10:58:53.191679018Z"
+    description: Prometheus Blackbox Exporter
+    digest: 6d3c825bb6a71117622800e64a85b36a352b7655d1a56d89897afee53a8751d7
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-blackbox-exporter-5.4.0/prometheus-blackbox-exporter-5.4.0.tgz
+    version: 5.4.0
+  - apiVersion: v2
+    appVersion: 0.19.0
     created: "2022-02-01T14:45:00.163660304Z"
     description: Prometheus Blackbox Exporter
     digest: c396c92aae326f408bf0a425093707ce9d13759d3c345f60693ae4481335e303
@@ -45209,4 +45236,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-15T12:51:09.894229168Z"
+generated: "2022-02-21T10:58:53.206090955Z"
