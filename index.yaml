@@ -15857,6 +15857,40 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.31.1
+    created: "2022-03-03T17:56:06.792222581Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.4.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 9dc9f9fc9987f35b32da98900fe60ffe21c080e0cbaa4112aa20e797d4a0ddf0
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-15.5.3/prometheus-15.5.3.tgz
+    version: 15.5.3
+  - apiVersion: v2
+    appVersion: 2.31.1
     created: "2022-03-01T10:46:34.376442079Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -45174,6 +45208,27 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: 0.12.0
+    created: "2022-03-03T17:56:06.910869563Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 600f351ab74c1005595f45f0be5b4a751a07c163aec1e62c7815a08f02a97e7f
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: apenney@gmail.com
+      name: apenney
+    - email: pahli88@googlemail.com
+      name: rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-stackdriver-exporter-2.2.0/prometheus-stackdriver-exporter-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
+    appVersion: 0.12.0
     created: "2022-02-15T12:51:09.880400373Z"
     description: Stackdriver exporter for Prometheus
     digest: 75d03935fcbb61557d0009e2f751fd484fe897da291bd9bfb2b23ade7d35b78a
@@ -45767,4 +45822,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-01T13:35:52.542235254Z"
+generated: "2022-03-03T17:56:06.929902784Z"
