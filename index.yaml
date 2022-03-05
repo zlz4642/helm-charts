@@ -543,6 +543,65 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.54.1
+    created: "2022-03-05T14:49:57.284528182Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 3.0.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.22.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: f4d24fbbf503ea337fbd033a6cb72741225a08eb2ad51d8a06dec260624ecb84
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - name: bismarck
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/kube-prometheus-stack-33.2.0/kube-prometheus-stack-33.2.0.tgz
+    version: 33.2.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: 0.54.1
     created: "2022-02-28T13:49:14.804162857Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -23583,30 +23642,6 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.9.1
-    created: "2022-03-04T20:17:13.461870892Z"
-    description: A Helm chart for k8s prometheus adapter
-    digest: 36f08e79803ca65dfc76c2bcc3937d1fd5217eca9187ce5362f47ce5b2549b64
-    home: https://github.com/kubernetes-sigs/prometheus-adapter
-    keywords:
-    - hpa
-    - metrics
-    - prometheus
-    - adapter
-    maintainers:
-    - email: mattias.gees@jetstack.io
-      name: mattiasgees
-    - name: steven-sheehy
-    - email: hfernandez@mesosphere.com
-      name: hectorj2f
-    name: prometheus-adapter
-    sources:
-    - https://github.com/kubernetes/charts
-    - https://github.com/kubernetes-sigs/prometheus-adapter
-    urls:
-    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-adapter-3.0.3/prometheus-adapter-3.0.3.tgz
-    version: 3.0.3
-  - apiVersion: v1
-    appVersion: v0.9.1
     created: "2022-02-10T15:55:32.572626988Z"
     description: A Helm chart for k8s prometheus adapter
     digest: c0316e59b57a0aa43e2a178923706500fd0d02e6b6ba8d018855f825361ec08a
@@ -45846,4 +45881,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-04T20:17:13.480745605Z"
+generated: "2022-03-05T14:49:57.29967887Z"
